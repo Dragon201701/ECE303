@@ -1,0 +1,1 @@
+To use the GEL slider controls, you must first load the GEL file into CCS (File->Load GEL...). Then, you can display the individual sliders by selecting them from the CCS GEL menu (i.e. GEL->Graphic Equalizer Controls->BP1). The program must be loaded onto the DSK before moving the slider controls.

@@ -1,0 +1,9 @@
+#Thu Mar 15 15:24:31 CDT 2012
+pathvariable.CCS_MSP430_3_3_1_CG_ROOT=D\:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/msp430
+version=1
+pathvariable.CCS_C5400_4_2_0_CG_ROOT=D\:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c5400
+pathvariable.CCS_TMS470_4_6_3_CG_ROOT=D\:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/tms470
+eclipse.preferences.version=1
+pathvariable.CCS_C2000_5_2_6_CG_ROOT=D\:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c2000
+pathvariable.CCS_C6000_7_0_3_CG_ROOT=D\:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000
+pathvariable.CCS_C5500_4_3_6_CG_ROOT=D\:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c5500

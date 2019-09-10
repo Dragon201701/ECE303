@@ -1,0 +1,26 @@
+menuitem "Graphic Equalizer Controls";
+
+slider LP(0, 100, 1, 1, lp_slider)
+{
+  new_gain_lp = lp_slider / 100.0;
+}
+
+slider BP1(0, 100, 1, 1, bp1_slider)
+{
+  new_gain_bp1 = bp1_slider / 100.0;
+}
+
+slider BP2(0, 100, 1, 1, bp2_slider)
+{
+  new_gain_bp2 = bp2_slider / 100.0;
+}
+
+slider BP3(0, 100, 1, 1, bp3_slider)
+{
+  new_gain_bp3 = bp3_slider / 100.0;
+}
+
+slider HP(0, 100, 1, 1, hp_slider)
+{
+  new_gain_hp = hp_slider / 100.0;
+}

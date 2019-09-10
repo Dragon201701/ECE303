@@ -1,0 +1,1 @@
+There is no MATLAB code specific to Chapter 6.

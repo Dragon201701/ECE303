@@ -1,0 +1,96 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../DSK6713_Support.c \
+../ISRs.c \
+../StartUp.c \
+../main.c 
+
+ASM_SRCS += \
+../vectors.asm 
+
+CMD_SRCS += \
+../lnk6713.cmd 
+
+ASM_DEPS += \
+./vectors.pp 
+
+OBJS += \
+./DSK6713_Support.obj \
+./ISRs.obj \
+./StartUp.obj \
+./main.obj \
+./vectors.obj 
+
+C_DEPS += \
+./DSK6713_Support.pp \
+./ISRs.pp \
+./StartUp.pp \
+./main.pp 
+
+OBJS__QTD += \
+".\DSK6713_Support.obj" \
+".\ISRs.obj" \
+".\StartUp.obj" \
+".\main.obj" \
+".\vectors.obj" 
+
+ASM_DEPS__QTD += \
+".\vectors.pp" 
+
+C_DEPS__QTD += \
+".\DSK6713_Support.pp" \
+".\ISRs.pp" \
+".\StartUp.pp" \
+".\main.pp" 
+
+C_SRCS_QUOTED += \
+"../DSK6713_Support.c" \
+"../ISRs.c" \
+"../StartUp.c" \
+"../main.c" 
+
+ASM_SRCS_QUOTED += \
+"../vectors.asm" 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+DSK6713_Support.obj: ../DSK6713_Support.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: Compiler'
+	"D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/bin/cl6x" -mv6700 -g -O2 --include_path="D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/include" --diag_warning=225 --preproc_with_compile --preproc_dependency="DSK6713_Support.pp" $(GEN_OPTS_QUOTED) $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+ISRs.obj: ../ISRs.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: Compiler'
+	"D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/bin/cl6x" -mv6700 -g -O2 --include_path="D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/include" --diag_warning=225 --preproc_with_compile --preproc_dependency="ISRs.pp" $(GEN_OPTS_QUOTED) $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+StartUp.obj: ../StartUp.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: Compiler'
+	"D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/bin/cl6x" -mv6700 -g -O2 --include_path="D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/include" --diag_warning=225 --preproc_with_compile --preproc_dependency="StartUp.pp" $(GEN_OPTS_QUOTED) $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+main.obj: ../main.c $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: Compiler'
+	"D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/bin/cl6x" -mv6700 -g -O2 --include_path="D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/include" --diag_warning=225 --preproc_with_compile --preproc_dependency="main.pp" $(GEN_OPTS_QUOTED) $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+vectors.obj: ../vectors.asm $(GEN_OPTS) $(GEN_SRCS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: Compiler'
+	"D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/bin/cl6x" -mv6700 -g -O2 --include_path="D:/Program Files (x86)/Texas Instruments/ccsv4/tools/compiler/c6000/include" --diag_warning=225 --preproc_with_compile --preproc_dependency="vectors.pp" $(GEN_OPTS_QUOTED) $(subst #,$(wildcard $(subst $(SPACE),\$(SPACE),$<)),"#")
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

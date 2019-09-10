@@ -1,0 +1,11 @@
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwblas.lib
+libmwmathutil.lib
+/export:mexFunction
+/export:emlrtMexFcnProperties
+/export:funFilter
+/export:funFilter_initialize
+/export:funFilter_terminate
+/export:funFilter_atexit

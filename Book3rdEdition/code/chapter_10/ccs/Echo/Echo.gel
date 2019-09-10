@@ -1,0 +1,39 @@
+/*/////////////////////////////////////////////////////////////////////
+// Filename: Echo.gel 
+//
+// Synopsis: Provides slider controls to modify delay and gain
+//           variables in ISRs_C.c
+//
+// Authors:  Cameron H. G. Wright
+//
+// Date of Last Revision:  19 July 2005
+//
+// Copyright (c): 2005 by Michael G. Morrow.  All rights reserved.
+/////////////////////////////////////////////////////////////////////*/
+
+menuitem "Echo Controls";
+
+// assumes 48 kHz Fs
+// delay from 0 to 2 s in 50 ms increments
+slider DelayControl(0, 96000, 2400, 1, mydelayfactor)
+{
+  MyDelaySamples = mydelayfactor;
+}
+
+// converts to a float from 0 to 1 in 0.1 increments
+slider GainControl(0, 10, 1, 1, mygainfactor)
+{
+  gain = (float)mygainfactor * 0.1F;
+}
+
+	
+
+
+
+
+
+
+
+
+
+

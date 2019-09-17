@@ -1,4 +1,4 @@
-C8X_DAQ('Init', 'aic3106_lcdk.out', 3, 3);
+C8X_DAQ('Init', 'aic3106_lcdk.out', 4, 3);
 C8X_DAQ('Version');
 FrameSize = 1024;
 C8X_DAQ('FrameSize', FrameSize);

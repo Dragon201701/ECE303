@@ -59,7 +59,7 @@ interrupt void Codec_ISR()
 	yRight = 0;				// initialize the RIGHT output value
 
 	for (i = 0; i <= B_LENGTH; i++) {
-		yLeft  += xLeft[B_LENGTH - i]*B[i];	// perform the LEFT dot-product
+		yLeft += xLeft[B_LENGTH - i]*B[i];	// perform the LEFT dot-product
 		yRight = xRight[i];	// perform the RIGHT dot-product
 	}
 	

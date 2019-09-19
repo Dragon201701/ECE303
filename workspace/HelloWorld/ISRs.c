@@ -54,8 +54,8 @@ interrupt void Codec_ISR()
 	xLeft  = CodecDataIn.Channel[LEFT];
 	xRight = CodecDataIn.Channel[RIGHT];
 
-	yLeft  = xLeft * 0.5;
-	yRight = xRight;
+	yLeft  = xLeft * 10;
+	yRight = xRight*0;
 
 	CodecDataOut.Channel[LEFT] = yLeft;
 	CodecDataOut.Channel[RIGHT] = yRight;

@@ -1,0 +1,1 @@
+"./FIRmono_ISRs.obj" "./LCDK_Support_DSP.obj" "./StartUp.obj" "./coeff.obj" "./main.obj" "./vectors.obj" "../link6748e.cmd" -llibc.a 

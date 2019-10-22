@@ -1,0 +1,1 @@
+"./DFIITIIR4th.obj" "./IIRmono_ISRs.obj" "./LCDK_Support_DSP.obj" "./StartUp.obj" "./main.obj" "./vectors.obj" "../link6748e.cmd" -llibc.a 

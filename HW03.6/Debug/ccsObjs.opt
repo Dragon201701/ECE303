@@ -1,0 +1,1 @@
+"./IIR4th.obj" "./IIRmono_ISRs.obj" "./LCDK_Support_DSP.obj" "./LP-8th-750of48K.obj" "./StartUp.obj" "./main.obj" "./vectors.obj" "../link6748e.cmd" -llibc.a 

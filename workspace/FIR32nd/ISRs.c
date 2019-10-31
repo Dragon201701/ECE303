@@ -18,9 +18,9 @@
 
 // frame buffer declarations
 //#define BUFFER_COUNT		1024   // buffer length in McASP samples (L+R)
-#define BUFFER_COUNT        1024   // buffer length in McASP samples (L+R)
-//#define BUFFER_LENGTH   	BUFFER_COUNT*2 // two Int16 read from McASP each time
-#define BUFFER_LENGTH       256 // two Int16 read from McASP each time
+#define BUFFER_COUNT        128   // buffer length in McASP samples (L+R)
+#define BUFFER_LENGTH   	BUFFER_COUNT*2 // two Int16 read from McASP each time
+//#define BUFFER_LENGTH       256 // two Int16 read from McASP each time
 #define NUM_BUFFERS     	3     // don't change this! 
 
 #pragma DATA_SECTION (buffer, "CE0"); // allocate buffers in SDRAM 

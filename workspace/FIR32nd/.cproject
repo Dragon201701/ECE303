@@ -154,5 +154,16 @@
 		<project id="HelloWorld.com.ti.ccstudio.buildDefinitions.C6000.ProjectType.1258149743" name="C6000" projectType="com.ti.ccstudio.buildDefinitions.C6000.ProjectType"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration"/>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="LCDK" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>${CCS_UTILS_DIR}/bin/gmake</buildCommand>
+				<buildArguments>-k -j 6</buildArguments>
+				<buildTarget>LCDK</buildTarget>
+				<stopOnError>false</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
 </cproject>

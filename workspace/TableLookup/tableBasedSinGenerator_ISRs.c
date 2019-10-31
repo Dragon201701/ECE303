@@ -76,7 +76,7 @@ interrupt void Codec_ISR()
 	sine_left = SineTable[(int)(index / GetSampleFreq() * NumTableEntries)];
 	sine_right = sine_left + (SineTable[(int)(index / GetSampleFreq() * NumTableEntries)+1] - sine_left) * (sine_left-floor(sine_left));
 
-	CodecDataOut.Channel[LEFT]  = 0*4096*sine_left; // scale the result
+	CodecDataOut.Channel[LEFT]  = 4096*sine_left; // scale the result
 	CodecDataOut.Channel[RIGHT] = 4096*sine_right;
 	/* ISR's algorithm ends here */	
 
